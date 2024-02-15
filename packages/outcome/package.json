@@ -1,0 +1,16 @@
+{
+  "name": "outcome",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "snabbdom": "^0.2.0",
+    "ui": "^0.2.4",
+    "ui-library": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "parcel-bundler": "^1.12.5"
+  }
+}
