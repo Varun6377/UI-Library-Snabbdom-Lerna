@@ -2,7 +2,6 @@ import { h } from "snabbdom/build/h";
 
 const increment = "INCREMENT";
 
-/*Templating*/
 function Teamplate(state, props) {
   const buttonStyles = {
     fontSize: "24px",
@@ -57,13 +56,11 @@ function Teamplate(state, props) {
   );
 }
 
-/*Reactivity*/
 function updateState(state, action) {
   console.log("State changed!");
   return action.type === increment ? state + 1 : state;
 }
 
-/*Life Cycle Events*/
 function onMount() {
   console.log("Component mounted!");
 }
